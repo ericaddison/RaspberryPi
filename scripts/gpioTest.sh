@@ -15,7 +15,6 @@ echo "0" > /sys/class/gpio/gpio4/value
 
 # read state of pin 17
 x=`cat /sys/class/gpio/gpio17/value`
-echo $x
 if [ $x -eq 0 ]
 then
   echo "Read $x, button is depressed"

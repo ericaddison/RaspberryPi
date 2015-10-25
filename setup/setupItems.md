@@ -42,8 +42,11 @@
 
   This will make the server send a keepalive packet every 60 seconds, preventing the disconnection of idle sessions.
   
-####4. Software installs
-sudo apt-get install vim
+####4. Software install and config
+  1. vim
+
+	`sudo apt-get install vim`
+	`echo "syntax on" >> ~/.vimrc`
 
 ####5. Dowload and build Julia
   `sudo apt-get install libblas3gf liblapack3gf libfftw3-dev libgmp3-dev libmpfr-dev libblas-dev liblapack-dev gfortran cmake    gcc-4.7  g++-4.7 libgfortran3`
