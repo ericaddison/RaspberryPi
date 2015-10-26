@@ -63,4 +63,11 @@
   Meh, giving up for now... Check for ARM binaries some time in the future...
   
   
+####6. Add user and groups
+  `sudo adduser eric`
   
+  `sudo adduser eric sudo`
+  
+  `sudo adduser eric gpio`
+  
+  `sudo adduser eric kmem`
