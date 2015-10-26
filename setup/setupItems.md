@@ -71,3 +71,5 @@
   `sudo adduser eric gpio`
   
   `sudo adduser eric kmem`
+
+  `sudo chmod 660 /dev/mem`
